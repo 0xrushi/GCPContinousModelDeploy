@@ -16,5 +16,6 @@ steps:
   args:
   - run
   - --filename=k8s/
-  - --location=us-west1-b
-  - --cluster=project-kube
+  - --location=us-central1-c
+  - --cluster=project-kube2
+  - --timeout=1500s
